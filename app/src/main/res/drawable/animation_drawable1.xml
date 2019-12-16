@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:oneshot="false">
+    <!--oneshot：控制播放次数 true:播放一次，false:重复不停的播放-->
+    <!--duration：每张图片持续时长-->
+    <item
+        android:drawable="@drawable/bg_choujiang1"
+        android:duration="500" />
+
+    <item
+        android:drawable="@drawable/bg_choujiang"
+        android:duration="500" />
+</animation-list>

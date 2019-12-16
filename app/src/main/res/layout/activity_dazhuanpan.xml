@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/zhuanpan_choujiang"
+    android:orientation="vertical">
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/dazhuanpan_back"
+                    android:layout_width="@dimen/dp_21"
+                    android:layout_height="@dimen/dp_21"
+                    android:layout_marginLeft="@dimen/dp_21"
+                    android:layout_marginTop="@dimen/dp_60"
+                    android:background="@drawable/icon_fanhui" />
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/dp_54"
+                    android:src="@drawable/zhaunpan_text" />
+
+            </RelativeLayout>
+
+
+            <TextView
+                android:id="@+id/dazhuanpan_shouyi"
+                android:layout_width="@dimen/dp_219"
+                android:layout_height="@dimen/dp_30"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="@dimen/dp_9"
+                android:gravity="center"
+                android:text="当前账户剩余动态收益：1000"
+                android:textColor="#ffffff"
+                android:textSize="@dimen/sp_14"
+                android:textStyle="bold" />
+
+            <RelativeLayout
+                android:id="@+id/luck_bg"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dp_350"
+                android:layout_margin="@dimen/dp_16">
+
+                <com.example.view.LuckyView
+                    android:id="@+id/dazhuanpan_luck"
+                    android:layout_width="@dimen/dp_270"
+                    android:layout_height="@dimen/dp_271"
+                    android:layout_centerInParent="true"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="@dimen/dp_20" />
+
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:layout_width="@dimen/dp_345"
+                android:layout_height="@dimen/dp_40">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/dp_19"
+                    android:layout_marginLeft="@dimen/dp_23"
+                    android:layout_marginTop="@dimen/dp_20"
+
+                    android:src="@drawable/zhongjiangjilvtiao" />
+
+                <ImageView
+                    android:layout_width="@dimen/dp_146"
+                    android:layout_height="@dimen/dp_36"
+                    android:layout_centerInParent="true"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="@dimen/dp_20"
+                    android:src="@drawable/zhuanpan_zhongjiang" />
+
+                <TextView
+                    android:id="@+id/dazhuanpan_rule"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="@dimen/dp_9"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="抽奖规则"
+                    android:textColor="#ffffff"
+                    android:textSize="@dimen/sp_15"
+                    android:textStyle="bold" />
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="@dimen/dp_338"
+                android:layout_height="202dp"
+                android:layout_gravity="center_horizontal"
+                android:background="#c37f4c"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginTop="@dimen/dp_9"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="中奖信息"
+                        android:textColor="#ffffff"
+                        android:textSize="@dimen/sp_13"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginTop="@dimen/dp_9"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="中奖账号"
+                        android:textColor="#ffffff"
+                        android:textSize="@dimen/sp_13"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginTop="@dimen/dp_9"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="中奖时间"
+                        android:textColor="#ffffff"
+                        android:textSize="@dimen/sp_13"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/dazhuanpan_recy"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+
+</LinearLayout>

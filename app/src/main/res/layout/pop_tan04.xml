@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/dp_299"
+    android:layout_height="@dimen/dp_244"
+    android:background="@drawable/free_dialog_bg"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dp_15"
+            android:includeFontPadding="false"
+            android:layout_centerHorizontal="true"
+            android:text="请选择兑换方式"
+            android:textColor="#000000"
+            android:textSize="@dimen/sp_18" />
+        <ImageView
+            android:id="@+id/clise"
+            android:layout_width="@dimen/dp_15"
+            android:layout_height="@dimen/dp_15"
+            android:background="@drawable/icon_guanbi11"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="@dimen/dp_17"
+            android:layout_marginRight="@dimen/dp_15"
+            />
+
+    </RelativeLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_1"
+        android:layout_marginTop="@dimen/sp_11"
+        android:background="#eeeeee"/>
+    <LinearLayout
+        android:id="@+id/chengyijin_lin_pop"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dp_20"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+        <ImageView
+            android:id="@+id/chengyijin_img"
+            android:layout_width="@dimen/dp_19"
+            android:layout_height="@dimen/dp_19"
+            android:layout_marginLeft="@dimen/dp_17"
+            android:src="@drawable/icon_xuanzhong11" />
+
+
+        <TextView
+            android:id="@+id/chengyijin_content"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/dp_21"
+            android:text="诚意金(将扣除200诚意金)"
+            android:textColor="#666666"
+            android:textSize="@dimen/sp_15" />
+
+        <View
+            android:layout_width="@dimen/dp_0"
+            android:layout_height="@dimen/dp_0"
+            android:layout_weight="1" />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/zhuancunshouyi_lin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dp_20"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+        <ImageView
+            android:id="@+id/zhuancunshouyi_img"
+            android:layout_width="@dimen/dp_19"
+            android:layout_height="@dimen/dp_19"
+            android:layout_marginLeft="@dimen/dp_17"
+            android:src="@drawable/icon_weixuanzhong11" />
+
+
+        <TextView
+            android:id="@+id/zhuancunshouyi_content"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/dp_21"
+            android:text="转存收益(将扣除200转存收益)"
+            android:textColor="#666666"
+            android:textSize="@dimen/sp_15" />
+
+        <View
+            android:layout_width="@dimen/dp_0"
+            android:layout_height="@dimen/dp_0"
+            android:layout_weight="1" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/dongtaishouyi_lin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dp_20"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+        <ImageView
+            android:id="@+id/dongtaishouyi_img"
+            android:layout_width="@dimen/dp_19"
+            android:layout_height="@dimen/dp_19"
+            android:layout_marginLeft="@dimen/dp_17"
+            android:src="@drawable/icon_weixuanzhong11" />
+
+
+        <TextView
+            android:id="@+id/dongtaishouyi_content"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/dp_21"
+            android:text="动态收益(将扣除200动态收益)"
+            android:textColor="#666666"
+            android:textSize="@dimen/sp_15" />
+
+        <View
+            android:layout_width="@dimen/dp_0"
+            android:layout_height="@dimen/dp_0"
+            android:layout_weight="1" />
+    </LinearLayout>
+
+    <View
+        android:layout_marginTop="@dimen/dp_30"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_1"
+        android:background="#e6a81e"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/duihuan_cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="取消兑换"
+            android:textSize="@dimen/sp_15"
+            android:textColor="#e6a81e" />
+
+        <View
+            android:layout_width="@dimen/dp_1"
+            android:layout_height="@dimen/dp_40"
+            android:background="#e6a81e" />
+
+        <TextView
+            android:background="#e6a81e"
+            android:id="@+id/duihuan_ok"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textSize="@dimen/sp_15"
+            android:text="确认兑换"
+            android:textColor="#ffffff" />
+    </LinearLayout>
+
+</LinearLayout>

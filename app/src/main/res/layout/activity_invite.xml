@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_qitabeijing"
+    android:orientation="vertical">
+
+    <include
+        android:id="@+id/include_lu"
+        layout="@layout/page_top" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dp_145"
+        android:src="@drawable/yaoqing_text" />
+
+    <RelativeLayout
+        android:id="@+id/invite_erweima_lin"
+        android:layout_width="@dimen/dp_151"
+        android:layout_height="@dimen/dp_151"
+        android:layout_centerInParent="true"
+        android:background="@drawable/bg_btn_invite">
+
+        <ImageView
+            android:id="@+id/invite_erweima"
+            android:layout_width="@dimen/dp_149"
+            android:layout_height="@dimen/dp_149"
+            android:layout_centerInParent="true"
+            android:src="@drawable/icon_lu"
+            />
+
+    </RelativeLayout>
+    <TextView
+        android:id="@+id/baocun"
+        android:layout_marginTop="@dimen/dp_10"
+        android:layout_centerInParent="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="点击二维码保存"
+        android:layout_below="@id/invite_erweima_lin"
+        android:textColor="#000000"
+        android:textSize="12sp"
+        />
+    <LinearLayout
+        android:id="@+id/invite_code_lin"
+        android:layout_width="match_parent"
+        android:layout_below="@id/baocun"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/invite_code"
+            android:layout_marginTop="@dimen/dp_10"
+            android:layout_centerInParent="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="邀请码:"
+            android:layout_below="@id/baocun"
+            android:textColor="#000000"
+            android:textSize="16sp"
+            />
+        <TextView
+            android:id="@+id/invite_code_content"
+            android:layout_marginTop="@dimen/dp_10"
+            android:layout_centerInParent="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1234:"
+            android:layout_below="@id/baocun"
+            android:textColor="#000000"
+            android:textSize="16sp"
+            />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/invite_code_copy"
+        android:layout_marginTop="@dimen/dp_10"
+        android:layout_centerInParent="true"
+        android:layout_width="@dimen/dp_140"
+        android:layout_height="@dimen/dp_40"
+        android:gravity="center"
+        android:background="@drawable/bg_mine_level"
+        android:text="复制邀请码"
+        android:layout_below="@id/invite_code_lin"
+        android:textColor="#ffffff"
+        android:textSize="14sp"
+        />
+</RelativeLayout>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+    <!--系统消息-->
+    <include
+        android:id="@+id/include_lu"
+        layout="@layout/page_top" />
+    <TextView
+        android:id="@+id/in_box_detail_content"
+        android:layout_marginRight="23dp"
+        android:layout_marginLeft="17dp"
+        android:layout_marginTop="15dp"
+        android:textColor="#333333"
+        android:textSize="12sp"
+        android:text="     首批区块链备案企业名单出炉3月30日，国家互联网信息办公室正式发布第一批境内区块链信息服务备案编号。放松放松技富士康就会发生时间都会发生了了解了解拉水电费；梁静茹套房首付"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"></TextView>
+    <TextView
+        android:id="@+id/in_box_detail_time"
+        android:layout_marginTop="14dp"
+        android:layout_marginRight="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2019.04.01"
+        android:textColor="#666666"
+        android:textSize="12sp"
+        android:layout_gravity="right"
+        />
+</LinearLayout>

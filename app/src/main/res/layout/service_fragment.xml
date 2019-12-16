@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include
+        android:id="@+id/include_lu"
+        layout="@layout/page_top" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/bg_qitabeijing"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:id="@+id/service_shoujianxiang"
+                android:layout_width="@dimen/dp_150"
+                android:layout_height="@dimen/dp_63"
+                android:layout_marginLeft="@dimen/dp_30"
+                android:layout_marginTop="@dimen/dp_20"
+                android:background="@drawable/bg_shoujianxiang"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="@dimen/dp_24"
+                    android:layout_height="@dimen/dp_24"
+                    android:layout_marginLeft="@dimen/dp_20"
+                    android:layout_marginTop="@dimen/dp_15"
+                    android:src="@drawable/fuwu_shoujianxiang" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/dp_18"
+                    android:text="收件箱"
+                    android:textColor="#ffffff"
+                    android:textSize="@dimen/sp_15"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/service_lingyang"
+                android:layout_width="@dimen/dp_150"
+                android:layout_height="@dimen/dp_63"
+                android:layout_marginLeft="@dimen/dp_17"
+                android:layout_marginTop="@dimen/dp_20"
+                android:background="@drawable/bg_lingyang"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="@dimen/dp_24"
+                    android:layout_height="@dimen/dp_24"
+                    android:layout_marginLeft="@dimen/dp_20"
+                    android:layout_marginTop="@dimen/dp_15"
+                    android:src="@drawable/fuwu_lingyang" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/dp_18"
+                    android:text="领养问题"
+                    android:textColor="#ffffff"
+                    android:textSize="@dimen/sp_15"
+                    android:textStyle="bold" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:id="@+id/service_chongzhi"
+                android:layout_width="@dimen/dp_150"
+                android:layout_height="@dimen/dp_63"
+                android:layout_marginLeft="@dimen/dp_30"
+                android:layout_marginTop="@dimen/dp_20"
+                android:background="@drawable/bg_chongzhi"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="@dimen/dp_24"
+                    android:layout_height="@dimen/dp_24"
+                    android:layout_marginLeft="@dimen/dp_20"
+                    android:layout_marginTop="@dimen/dp_15"
+                    android:src="@drawable/fuwu_chongzhi" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/dp_18"
+                    android:text="充值问题"
+                    android:textColor="#ffffff"
+                    android:textSize="@dimen/sp_15"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/service_shiming"
+                android:layout_width="@dimen/dp_150"
+                android:layout_height="@dimen/dp_63"
+                android:layout_marginLeft="@dimen/dp_17"
+                android:layout_marginTop="@dimen/dp_20"
+                android:background="@drawable/bg_shiming"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="@dimen/dp_24"
+                    android:layout_height="@dimen/dp_24"
+                    android:layout_marginLeft="@dimen/dp_20"
+                    android:layout_marginTop="@dimen/dp_15"
+                    android:src="@drawable/fuwu_shiming" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/dp_18"
+                    android:text="实名问题"
+                    android:textColor="#ffffff"
+                    android:textSize="@dimen/sp_15"
+                    android:textStyle="bold" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:id="@+id/service_dongjie"
+                android:layout_width="@dimen/dp_150"
+                android:layout_height="@dimen/dp_63"
+                android:layout_marginLeft="@dimen/dp_30"
+                android:layout_marginTop="@dimen/dp_20"
+                android:background="@drawable/bg_dongjie"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="@dimen/dp_24"
+                    android:layout_height="@dimen/dp_24"
+                    android:layout_marginLeft="@dimen/dp_20"
+                    android:layout_marginTop="@dimen/dp_15"
+                    android:src="@drawable/fuwu_dongjie" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/dp_18"
+                    android:text="冻结问题"
+                    android:textColor="#ffffff"
+                    android:textSize="@dimen/sp_15"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/service_qita"
+                android:layout_width="@dimen/dp_150"
+                android:layout_height="@dimen/dp_63"
+                android:layout_marginLeft="@dimen/dp_17"
+                android:layout_marginTop="@dimen/dp_20"
+                android:background="@drawable/bg_qita"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="@dimen/dp_24"
+                    android:layout_height="@dimen/dp_24"
+                    android:layout_marginLeft="@dimen/dp_20"
+                    android:layout_marginTop="@dimen/dp_15"
+                    android:src="@drawable/fuwu_qita" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/dp_18"
+                    android:text="其他问题"
+                    android:textColor="#ffffff"
+                    android:textSize="@dimen/sp_15"
+                    android:textStyle="bold" />
+            </LinearLayout>
+        </LinearLayout>
+
+
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp_168"
+            android:background="@drawable/denglu_bg"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dp_57"
+                android:gravity="center_horizontal"
+                android:text="WELCOME HOME!"
+                android:textColor="#ffffff"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dp_90"
+                android:gravity="center_horizontal"
+                android:text="领养宠物  每日收益"
+                android:textColor="#ffffff"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+        </RelativeLayout>
+
+        <ImageView
+            android:layout_width="@dimen/dp_80"
+            android:layout_height="@dimen/dp_80"
+            android:layout_marginLeft="@dimen/dp_140"
+            android:layout_marginTop="@dimen/dp_140"
+            android:src="@drawable/denglu_logo" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="@dimen/dp_301"
+            android:layout_height="@dimen/dp_52"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="@dimen/dp_34">
+
+            <EditText
+                android:id="@+id/login_name"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@null"
+                android:hint="请输入您的账号"
+                android:inputType="number"
+                android:paddingLeft="@dimen/dp_51"
+                android:textColor="#333333"
+                android:textColorHint="#94666666"
+                android:textSize="@dimen/sp_16" />
+
+            <ImageView
+                android:layout_width="@dimen/dp_18"
+                android:layout_height="@dimen/dp_19"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="@dimen/dp_19"
+                android:src="@drawable/dl_icon_zhanghao" />
+        </RelativeLayout>
+
+        <View
+            android:layout_width="@dimen/dp_278"
+            android:layout_height="@dimen/dp_1"
+            android:layout_gravity="center_horizontal"
+            android:background="#bfbfbf" />
+
+        <RelativeLayout
+            android:layout_width="@dimen/dp_293"
+            android:layout_height="@dimen/dp_52"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="@dimen/dp_15">
+
+            <EditText
+                android:id="@+id/login_password"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@null"
+                android:hint="请输入您的密码"
+                android:inputType="textPassword"
+                android:paddingLeft="@dimen/dp_51"
+                android:textColor="#333333"
+                android:textColorHint="#94666666"
+                android:textSize="@dimen/sp_16" />
+
+            <ImageView
+                android:layout_width="@dimen/dp_18"
+                android:layout_height="@dimen/dp_19"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="@dimen/dp_19"
+                android:src="@drawable/dl_icon_mima" />
+
+            <ImageView
+                android:id="@+id/login_eye"
+                android:layout_width="@dimen/dp_18"
+                android:layout_height="@dimen/dp_7"
+                android:paddingRight="@dimen/dp_8"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="@dimen/dp_19"
+                android:layout_marginRight="@dimen/dp_10"
+                android:src="@drawable/icon_yincang" />
+        </RelativeLayout>
+
+        <View
+            android:layout_width="@dimen/dp_278"
+            android:layout_height="@dimen/dp_1"
+            android:layout_gravity="center_horizontal"
+            android:background="#bfbfbf" />
+
+        <RelativeLayout
+            android:id="@+id/xiala_lin"
+            android:layout_width="@dimen/dp_293"
+            android:layout_height="@dimen/dp_52"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="@dimen/dp_15">
+
+            <TextView
+                android:id="@+id/login_text"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@null"
+                android:text="中文简体"
+                android:inputType="number"
+                android:paddingLeft="@dimen/dp_51"
+                android:textColor="#94666666"
+                android:layout_marginTop="@dimen/dp_15"
+                android:textColorHint="#94666666"
+                android:textSize="@dimen/sp_16" />
+
+            <ImageView
+                android:layout_width="@dimen/dp_18"
+                android:layout_height="@dimen/dp_19"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="@dimen/dp_19"
+                android:src="@drawable/denglu_yuyan" />
+            <ImageView
+                android:id="@+id/login_xiayige"
+                android:layout_width="@dimen/dp_18"
+                android:layout_height="@dimen/dp_7"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="@dimen/dp_19"
+                android:layout_marginRight="@dimen/dp_10"
+                android:src="@drawable/icon_xiala" />
+
+        </RelativeLayout>
+
+        <View
+            android:layout_width="@dimen/dp_278"
+            android:layout_height="@dimen/dp_1"
+            android:layout_gravity="center_horizontal"
+            android:background="#bfbfbf" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/login_btn_login"
+        android:layout_width="@dimen/dp_301"
+        android:layout_height="@dimen/dp_44"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/dp_21"
+        android:layout_marginBottom="@dimen/dp_23"
+        android:background="@drawable/bg_btn_login"
+        android:gravity="center"
+        android:includeFontPadding="false"
+        android:text="登录"
+        android:textColor="#ffffff"
+        android:textSize="@dimen/sp_18" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+
+        >
+
+        <TextView
+            android:id="@+id/login_forget_password"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/dp_38"
+            android:gravity="left"
+            android:text="忘记密码？"
+            android:textColor="#959595"
+            android:textSize="12sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginLeft="@dimen/dp_38"
+            android:layout_marginRight="@dimen/dp_90"
+            android:gravity="left"
+            android:text="没有账号,"
+            android:textColor="#959595"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/login_reg_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginLeft="@dimen/dp_38"
+            android:layout_marginRight="@dimen/dp_38"
+            android:gravity="left"
+            android:text="立即注册"
+            android:textColor="#e6a81e"
+            android:textSize="12sp" />
+    </RelativeLayout>
+
+    <TextView
+        android:layout_marginTop="@dimen/dp_58"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="Deer International (Asia) technology group"
+        android:textColor="#333333"
+        android:textSize="10sp" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="鹿鹿国际(亚洲)科技集团"
+        android:textColor="#333333"
+        android:textSize="10sp" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="V1.02.02"
+        android:textColor="#333333"
+        android:textSize="10sp" />
+</LinearLayout>

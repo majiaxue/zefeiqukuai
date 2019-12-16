@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <include
+        android:id="@+id/include_lu"
+        layout="@layout/page_top" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dp_10"
+        android:background="#FFFFFF"
+        android:orientation="vertical"
+        android:paddingLeft="@dimen/dp_15"
+        android:paddingRight="@dimen/dp_15">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp_44"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="支付宝账号"
+                android:textColor="#333333"
+                android:textSize="@dimen/sp_14" />
+
+            <EditText
+                android:id="@+id/update_zh"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/dp_30"
+                android:background="@null"
+                android:hint="请输入账号"
+                android:textColorHint="#787878"
+                android:lines="1"
+                android:textColor="#787878"
+                android:textSize="@dimen/sp_14" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp_1"
+            android:background="#f3f3f3" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp_44"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="支付宝昵称"
+                android:textColor="#333333"
+                android:textSize="@dimen/sp_14" />
+
+            <EditText
+                android:id="@+id/update_nc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/dp_30"
+                android:background="@null"
+                android:hint="请输入昵称"
+                android:textColorHint="#787878"
+                android:lines="1"
+                android:textColor="#787878"
+                android:textSize="@dimen/sp_14" />
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/ypdate_lin_name"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp_44"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="开户姓名"
+                android:textColor="#333333"
+                android:textSize="@dimen/sp_14" />
+
+            <EditText
+                android:id="@+id/update_kh_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/dp_40"
+                android:background="@null"
+                android:hint="请输入开户昵称"
+                android:textColorHint="#787878"
+                android:lines="1"
+                android:textColor="#787878"
+                android:textSize="@dimen/sp_14" />
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/update_bank_card"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp_44"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="银行卡号"
+                android:textColor="#333333"
+                android:textSize="@dimen/sp_14" />
+
+            <EditText
+                android:id="@+id/update_card"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/dp_39"
+                android:background="@null"
+                android:hint="请输入银行卡号"
+                android:textColorHint="#787878"
+                android:lines="1"
+                android:textColor="#787878"
+                android:textSize="@dimen/sp_14" />
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp_1"
+            android:background="#f3f3f3" />
+        <TextView
+            android:layout_marginTop="@dimen/dp_10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:text="收款码"
+
+            android:textColor="#333333"
+            android:textSize="@dimen/sp_14" />
+        <ImageView
+            android:id="@+id/update_zhifubao_shoukuanma_img"
+            android:layout_width="@dimen/dp_89"
+            android:layout_height="@dimen/dp_89"
+            android:src="@drawable/shoukuan_shangchuan"
+            android:layout_marginTop="@dimen/dp_15"
+            />
+        <TextView
+            android:layout_marginTop="@dimen/dp_10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:text="上传收款码"
+            android:textColor="#333333"
+            android:textSize="@dimen/sp_14" />
+    </LinearLayout>
+    <TextView
+        android:id="@+id/login_btn_login"
+        android:layout_width="@dimen/dp_301"
+        android:layout_height="@dimen/dp_44"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/dp_190"
+        android:layout_marginBottom="@dimen/dp_23"
+        android:background="@drawable/bg_btn_login"
+        android:gravity="center"
+        android:includeFontPadding="false"
+        android:text="登录"
+        android:textColor="#ffffff"
+        android:textSize="@dimen/sp_18" />
+</LinearLayout>
